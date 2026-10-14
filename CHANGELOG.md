@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Count the README token badge in CI so it reflects the current default branch instead of a stale hosted count.
+
+## [0.6.1] - 2026-10-05
+
+### Changed
+- Generalize cloning guidance: treat each observation as a sample of a rule found by varying width, height, input, and state; use the source's actual files; and build shared components from every observed state.
+
+## [0.6.0] - 2026-10-05
+
+### Changed
+- Simplify the shared website-cloning workflow, improve responsive and motion guidance, and align the project documentation.
+
 ## [0.5.1] - 2026-09-26
 
 ### Changed
@@ -129,7 +142,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MIT license
 - README with badges, demo section, quick start, and star history
 
-[Unreleased]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.5.1...HEAD
+[Unreleased]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.6.1...HEAD
+[0.6.1]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.6.0...v0.6.1
+[0.6.0]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.3.1...v0.4.0
